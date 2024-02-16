@@ -1,0 +1,16 @@
+{
+  "name": "newProj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": "true",
+  "author": "bokhodir-ziedullaev-comture <ziedullaev_bokhodir@center.comture.com>",
+  "license": "MIT",
+  "workspaces": [
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd frontend start",
+    "build": "tsc"
+  }
+}

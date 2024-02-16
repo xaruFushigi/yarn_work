@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["packages/*"]
+    },
+    "composite": true
+  },
+
+  "references": [{ "path": "./frontend" }, { "path": "./packages/commons" }]
+}

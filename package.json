@@ -12,5 +12,8 @@
   "scripts": {
     "start": "yarn --cwd frontend start",
     "build": "npx tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
   }
 }

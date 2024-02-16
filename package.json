@@ -11,6 +11,6 @@
   ],
   "scripts": {
     "start": "yarn --cwd frontend start",
-    "build": "tsc"
+    "build": "npx tsc"
   }
 }
